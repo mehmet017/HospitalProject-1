@@ -49,6 +49,7 @@ public class DoctorManager implements IdMaker {
         System.out.println("Lütfen eklemek istediğiniz doktorun üvanını seçiniz: ");
         titlesList.forEach(t -> System.out.println("Id: " + t.getId() + " --> " + t.getTittle()));
 
+
         System.out.println("\nÜnvan id'sini giriniz: ");
         String titleId = inp.nextLine().replaceAll("[^0-9]", "");
 
